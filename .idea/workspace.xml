@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdaee200-6a65-40df-a8e6-c363d01b72ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_extractmethod/Refactoring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_extractmethod/example/after/Banner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_extractmethod/example/after/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_extractmethod/example/before/Banner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_05_extractmethod/example/before/Main.java" afterDir="false" />
+    <list default="true" id="cdaee200-6a65-40df-a8e6-c363d01b72ff" name="Default Changelist" comment="9">
+      <change afterPath="$PROJECT_DIR$/src/main/java/_06_extractclass/Refactoring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_06_extractclass/example/after/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_06_extractclass/example/after/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_06_extractclass/example/after/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_06_extractclass/example/before/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_06_extractclass/example/before/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_06_extractclass/mutable/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_06_extractclass/mutable/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_06_extractclass/mutable/ImmutableAuthor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_06_extractclass/mutable/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,12 +26,54 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_05_extractmethod/Refactoring.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/Refactoring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="62" column="79" selection-start-line="62" selection-start-column="79" selection-end-line="62" selection-end-column="79" />
+            <state relative-caret-position="411">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/mutable/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/mutable/Author.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/mutable/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="49" column="70" selection-start-line="49" selection-start-column="70" selection-end-line="49" selection-end-column="70" />
+              <folding>
+                <element signature="e#988#989#0" expanded="true" />
+                <element signature="e#1017#1018#0" expanded="true" />
+                <element signature="e#1376#1377#0" expanded="true" />
+                <element signature="e#1451#1452#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/mutable/ImmutableAuthor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -38,6 +85,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -52,17 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/definition00/RefactoringEssence.java" />
-        <option value="$PROJECT_DIR$/src/main/java/definition00/WhatIsRefactoring.java" />
-        <option value="$PROJECT_DIR$/src/main/java/magicnumbertoconstant01/example/before/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/magicnumbertoconstant01/example/before/Robot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/magicnumbertoconstant01/example/after/Robot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/magicnumbertoconstant01/example/after/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/magicnumbertoconstant01/advanceexample/before/RobotCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/magicnumbertoconstant01/advanceexample/before/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/magicnumbertoconstant01/advanceexample/before/Robot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/magicnumbertoconstant01/advanceexample/after/Command.java" />
-        <option value="$PROJECT_DIR$/src/main/java/magicnumbertoconstant01/advanceexample/after/Robot.java" />
         <option value="$PROJECT_DIR$/src/main/java/magicnumbertoconstant01/advanceexample/after/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/magicnumbertoconstant01/Refactoring.java" />
         <option value="$PROJECT_DIR$/src/main/java/removecontrolflag02/findint/FindInt.java" />
@@ -103,6 +140,17 @@
         <option value="$PROJECT_DIR$/src/main/java/_05_extractmethod/example/after/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/_05_extractmethod/example/after/Banner.java" />
         <option value="$PROJECT_DIR$/src/main/java/_05_extractmethod/Refactoring.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_06_extractclass/example.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_06_extractclass/example/before/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_06_extractclass/example/before/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_06_extractclass/example/after/Author.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_06_extractclass/example/after/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_06_extractclass/example/after/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_06_extractclass/mutable/ImmutableAuthor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_06_extractclass/mutable/Author.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_06_extractclass/mutable/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_06_extractclass/mutable/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_06_extractclass/Refactoring.java" />
       </list>
     </option>
   </component>
@@ -120,6 +168,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,7 +201,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="_05_extractmethod" type="462c0819:PsiDirectoryNode" />
+              <item name="_06_extractclass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="refactoring" type="b2602c69:ProjectViewProjectNode" />
@@ -159,35 +209,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="_05_extractmethod" type="462c0819:PsiDirectoryNode" />
+              <item name="_06_extractclass" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="refactoring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="refactoring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="_05_extractmethod" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="after" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="refactoring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="refactoring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="_05_extractmethod" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="before" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,7 +224,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/_05_extractmethod/example/after" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/_06_extractclass/mutable" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -218,11 +246,11 @@
       <recent name="_04_introducenullobject.advanesample" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/_06_extractclass/mutable" />
+      <recent name="$PROJECT_DIR$/src/main/java/_06_extractclass/example/after" />
+      <recent name="$PROJECT_DIR$/src/main/java/_06_extractclass/example" />
       <recent name="$PROJECT_DIR$/src/main/java/_05_extractmethod/example/after" />
       <recent name="$PROJECT_DIR$/src/main/java/_05_extractmethod/example" />
-      <recent name="$PROJECT_DIR$/src/main/java/_04_introducenullobject/advancesample02" />
-      <recent name="$PROJECT_DIR$/src/main/java/_04_introducenullobject/advanesample" />
-      <recent name="$PROJECT_DIR$/src/main/java/_04_introducenullobject/sample/after" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -237,13 +265,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_04_introducenullobject.sample.after.Main" />
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_06_extractclass.example.before.Main" />
       <module name="refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_04_introducenullobject.sample.after.*" />
+          <option name="PATTERN" value="_06_extractclass.example.before.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_06_extractclass.example.after.Main" />
+      <module name="refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_06_extractclass.example.after.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,34 +383,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main(4)" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="_03_introduceassertion.sortsample.after.Main" />
-      <module name="refactoring" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_03_introduceassertion.sortsample.after.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
-      <item itemvalue="Application.Main(4)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -391,12 +418,13 @@
       <workItem from="1567172664269" duration="18000" />
       <workItem from="1567172716775" duration="3005000" />
       <workItem from="1567303694856" duration="4705000" />
-      <workItem from="1567308413425" duration="2926000" />
+      <workItem from="1567308413425" duration="3023000" />
+      <workItem from="1567340014182" duration="2803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22733000" />
+    <option name="totallyTimeSpent" value="25633000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,7 +439,7 @@
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2741148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2771673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -420,7 +448,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -428,7 +456,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -446,82 +474,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/_01_magicnumbertoconstant/advanceexample/after/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_01_magicnumbertoconstant/advanceexample/after/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_01_magicnumbertoconstant/Refactoring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/removecontrolflag02/findint/FindInt.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/removecontrolflag02/findint/before/Robot.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/removecontrolflag02/findint/after/Robot.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/_02_removecontrolflag/simpledatabase/dbfile.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/removecontrolflag02/simpledatabase/before/dbfile.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/_02_removecontrolflag/findint/before/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_02_removecontrolflag/findint/before/FindInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_02_removecontrolflag/findint/after/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_02_removecontrolflag/findint/after/FindInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_02_removecontrolflag/simpledatabase/after/SimpleDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_02_removecontrolflag/Refactoring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -733,21 +685,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_05_extractmethod/example/after/Person.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_05_extractmethod/example/after/NullLabel.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_05_extractmethod/example/before/Person.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_05_extractmethod/example/after/Label.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_05_extractmethod/example/before/Label.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_05_extractmethod/example/after/Person.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_05_extractmethod/example/after/NullLabel.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_05_extractmethod/example/before/Person.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_05_extractmethod/example/after/Label.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_05_extractmethod/example/before/Label.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/_05_extractmethod/example/after/Banner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -784,6 +726,123 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="62" column="79" selection-start-line="62" selection-start-column="79" selection-end-line="62" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/example/before/Banner.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/example/after/Banner.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/example/before/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/example/before/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="59" column="66" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
+          <folding>
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/example/after/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="48" column="80" selection-start-line="48" selection-start-column="80" selection-end-line="48" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/example/after/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/example/after/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/mutable/ImmutableAuthor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/mutable/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/mutable/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="49" column="70" selection-start-line="49" selection-start-column="70" selection-end-line="49" selection-end-column="70" />
+          <folding>
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
+            <element signature="e#1451#1452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/mutable/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/Refactoring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
