@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdaee200-6a65-40df-a8e6-c363d01b72ff" name="Default Changelist" comment="9">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/Refactoring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/ShapeLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/ShapeOval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/ShapeRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after/ShapeLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after/ShapeOval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after/ShapeRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/before/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/before/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/Refactoring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/advanceafter/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/advanceafter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/StateLogging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/StateStopped.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/before/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/before/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,55 +28,44 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/Shape.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/Refactoring.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/Refactoring.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="542">
-              <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
+              <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/ShapeLine.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/advanceafter/Logger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="427">
+              <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+              <folding>
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#976#977#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1103#1104#0" expanded="true" />
+                <element signature="e#1443#1444#0" expanded="true" />
+                <element signature="e#1477#1478#0" expanded="true" />
+                <element signature="e#1626#1627#0" expanded="true" />
+                <element signature="e#1655#1656#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/ShapeRectangle.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/advanceafter/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/ShapeOval.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="209">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -107,16 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/_04_introducenullobject/advanesample/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_04_introducenullobject/sample/after/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_04_introducenullobject/advancesample02/Label.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_04_introducenullobject/advancesample02/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_04_introducenullobject/Refactoring.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_05_extractmethod/example/after/Label.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_05_extractmethod/example/before/Banner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_05_extractmethod/example/before/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_05_extractmethod/example/after/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_05_extractmethod/example/after/Banner.java" />
         <option value="$PROJECT_DIR$/src/main/java/_05_extractmethod/Refactoring.java" />
         <option value="$PROJECT_DIR$/src/main/java/_06_extractclass/example.java" />
         <option value="$PROJECT_DIR$/src/main/java/_06_extractclass/example/before/Main.java" />
@@ -158,10 +133,20 @@
         <option value="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/Refactoring.java" />
         <option value="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/Shape.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/ShapeRectangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/before/Logger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/before/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/ㄴㅅㅁㅅㄷ.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/State.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/StateStopped.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/StateLogging.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/Logger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/advanceafter/Logger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/Refactoring.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="24" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
@@ -175,8 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,12 +191,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="_08_replacetypecodewithsubclasses" type="462c0819:PsiDirectoryNode" />
+              <item name="_09_replacetypecodewithstatestrategy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="refactoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="refactoring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="_09_replacetypecodewithstatestrategy" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,7 +216,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/advanceafter" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -237,22 +231,22 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="_08_replacetypecodewithsubclasses.advanceexample" />
-      <recent name="_08_replacetypecodewithsubclasses.example.after" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="definition" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/advanceafter" />
+      <recent name="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after" />
+      <recent name="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example" />
+      <recent name="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample" />
+      <recent name="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_04_introducenullobject.advanesample" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample" />
-      <recent name="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after" />
-      <recent name="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example" />
-      <recent name="$PROJECT_DIR$/src/main/java/_07_replacetypecodewithclass/advanceexample" />
-      <recent name="$PROJECT_DIR$/src/main/java/_07_replacetypecodewithclass/example/after02" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="_08_replacetypecodewithsubclasses.advanceexample" />
+      <recent name="_08_replacetypecodewithsubclasses.example.after" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -267,20 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_08_replacetypecodewithsubclasses.example.before.Main" />
-      <module name="refactoring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_08_replacetypecodewithsubclasses.example.before.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_08_replacetypecodewithsubclasses.example.after.Main" />
       <module name="refactoring" />
@@ -307,12 +288,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_07_replacetypecodewithclass.example.before.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_09_replacetypecodewithstatestrategy.example.before.Main" />
       <module name="refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_07_replacetypecodewithclass.example.before.*" />
+          <option name="PATTERN" value="_09_replacetypecodewithstatestrategy.example.before.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_09_replacetypecodewithstatestrategy.example.after.Main" />
+      <module name="refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_09_replacetypecodewithstatestrategy.example.after.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,11 +315,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_07_replacetypecodewithclass.example.after01.Main" />
+      <option name="MAIN_CLASS_NAME" value="_09_replacetypecodewithstatestrategy.example.advanceafter.Main" />
       <module name="refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_07_replacetypecodewithclass.example.after01.*" />
+          <option name="PATTERN" value="_09_replacetypecodewithstatestrategy.example.advanceafter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -386,19 +380,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (5)" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main (5)" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -422,12 +416,13 @@
       <workItem from="1567303694856" duration="4705000" />
       <workItem from="1567308413425" duration="3023000" />
       <workItem from="1567340014182" duration="6275000" />
-      <workItem from="1567430294790" duration="4307000" />
+      <workItem from="1567430294790" duration="4860000" />
+      <workItem from="1567517428783" duration="2771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33412000" />
+    <option name="totallyTimeSpent" value="36736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,10 +434,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="23" width="1680" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2802198" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2832723" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -451,7 +446,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -477,125 +472,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/_05_extractmethod/example/after/Banner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_05_extractmethod/example/before/Banner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_05_extractmethod/example/after/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_05_extractmethod/example/before/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_05_extractmethod/Refactoring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="62" column="79" selection-start-line="62" selection-start-column="79" selection-end-line="62" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/example.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/example/before/Banner.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/example/after/Banner.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/example/before/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/example/before/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="59" column="66" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
-          <folding>
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1322#1323#0" expanded="true" />
-            <element signature="e#1397#1398#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/example/after/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="48" column="80" selection-start-line="48" selection-start-column="80" selection-end-line="48" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/example/after/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/example/after/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/Refactoring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/mutable/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_06_extractclass/mutable/Author.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -718,94 +594,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after/Book.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after/Author.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/before/Book.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/before/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
-          <folding>
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#1632#1633#0" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
-            <element signature="e#1734#1735#0" expanded="true" />
-            <element signature="e#1800#1801#0" expanded="true" />
-            <element signature="e#1831#1832#0" expanded="true" />
-            <element signature="e#1897#1898#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/before/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after/ShapeRectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after/ShapeOval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after/ShapeLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/ShapeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after/Book.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after/Author.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/before/Book.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/ShapeLine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -827,24 +619,203 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/before/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/before/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after/ShapeRectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after/ShapeLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/Refactoring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
+        <state relative-caret-position="385">
           <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/ShapeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="-617">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after/ShapeOval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/Shape.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/ShapeOval.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/ShapeLine.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/ShapeRectangle.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/before/Shape.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/before/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/before/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="69" column="65" selection-start-line="69" selection-start-column="65" selection-end-line="69" selection-end-column="65" />
+          <folding>
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/StateLogging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/StateStopped.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/advanceafter/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+          <folding>
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#1655#1656#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/advanceafter/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/Refactoring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
         </state>
       </provider>
     </entry>
