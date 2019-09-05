@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdaee200-6a65-40df-a8e6-c363d01b72ff" name="Default Changelist" comment="9">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/Refactoring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example01/after/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example01/after/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example01/after/ShapeLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example01/after/ShapeOval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example01/after/ShapeRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example01/before/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example01/before/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/DigitPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/GraphPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/before/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/before/DigitPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/before/GraphPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/before/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/before/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/Refactoring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after01/IntegerDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after01/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after01/ValueChangeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after01/ValueListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02/IntegerDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02/Value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02/ValueChangeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02/ValueListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/before/IntegerDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/before/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,45 +30,33 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/Printer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02/IntegerDisplay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/Refactoring.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="443">
+              <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -99,24 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/example/after/ShapeRectangle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/ShapeLine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/ShapeRectangle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/ShapeOval.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/Refactoring.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_08_replacetypecodewithsubclasses/advanceexample/Shape.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/ShapeRectangle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/before/Logger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/before/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/ㄴㅅㅁㅅㄷ.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/State.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/StateStopped.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/StateLogging.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/after/Logger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/example/advanceafter/Logger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_09_replacetypecodewithstatestrategy/Refactoring.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/after/StateLogging.java" />
         <option value="$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/before/Command.java" />
         <option value="$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/before/Position.java" />
         <option value="$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/before/Direction.java" />
@@ -148,8 +114,26 @@
         <option value="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/GraphPrinter.java" />
         <option value="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/Printer.java" />
         <option value="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/Refactoring.java" />
         <option value="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/Refactoring.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/Refactoring.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/advanceafter/Command.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/before/ㅑㅜㅅㄷㅎㄷㄱ야네ㅣ묘.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/before/IntegerDisplay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/before/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after/ValueChangeEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after/ValueListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after/Value.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after/IntegerDisplay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02/ValueListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after01/Graph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after01/IntegerDisplay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after01/IntegerDisplay1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02/IntegerDisplay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after01/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02/Graph.java" />
       </list>
     </option>
   </component>
@@ -198,7 +182,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="_11_replaceconstructorwithfactorymethod" type="462c0819:PsiDirectoryNode" />
+              <item name="_12_duplicateobserveddata" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="refactoring" type="b2602c69:ProjectViewProjectNode" />
@@ -206,15 +190,45 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="_11_replaceconstructorwithfactorymethod" type="462c0819:PsiDirectoryNode" />
-              <item name="example01" type="462c0819:PsiDirectoryNode" />
+              <item name="_12_duplicateobserveddata" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="refactoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="refactoring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="_12_duplicateobserveddata" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="after01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="refactoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="refactoring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="_12_duplicateobserveddata" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="after02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="refactoring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="refactoring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="_12_duplicateobserveddata" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="before" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,7 +237,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -242,11 +256,11 @@
       <recent name="definition" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02" />
+      <recent name="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example" />
+      <recent name="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after" />
+      <recent name="$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata" />
       <recent name="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after" />
-      <recent name="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02" />
-      <recent name="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod" />
-      <recent name="$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example/after" />
-      <recent name="$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/advanceafter" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_04_introducenullobject.advanesample" />
@@ -270,26 +284,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_10_replaceerrorcodewithexception.example.before.Main" />
+      <option name="MAIN_CLASS_NAME" value="_12_duplicateobserveddata.example.after02.Main" />
       <module name="refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_10_replaceerrorcodewithexception.example.before.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_10_replaceerrorcodewithexception.example.advanceafter.Main" />
-      <module name="refactoring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_10_replaceerrorcodewithexception.example.advanceafter.*" />
+          <option name="PATTERN" value="_12_duplicateobserveddata.example.after02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,11 +299,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_10_replaceerrorcodewithexception.example.after.Main" />
+      <option name="MAIN_CLASS_NAME" value="_12_duplicateobserveddata.example.after01.Main" />
       <module name="refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_10_replaceerrorcodewithexception.example.after.*" />
+          <option name="PATTERN" value="_12_duplicateobserveddata.example.after01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -337,6 +338,19 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_12_duplicateobserveddata.example.before.Main" />
+      <module name="refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_12_duplicateobserveddata.example.before.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_11_replaceconstructorwithfactorymethod.example01.before.Main" />
       <module name="refactoring" />
       <extension name="coverage">
@@ -350,11 +364,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_11_replaceconstructorwithfactorymethod.example01.after.Main" />
+      <option name="MAIN_CLASS_NAME" value="_12_duplicateobserveddata.example.after01.Main" />
       <module name="refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_11_replaceconstructorwithfactorymethod.example01.after.*" />
+          <option name="PATTERN" value="_12_duplicateobserveddata.example.after02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -415,19 +429,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (3)" />
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -454,12 +468,13 @@
       <workItem from="1567430294790" duration="4860000" />
       <workItem from="1567517428783" duration="3059000" />
       <workItem from="1567601378928" duration="6514000" />
-      <workItem from="1567681656732" duration="3675000" />
+      <workItem from="1567681656732" duration="7564000" />
+      <workItem from="1567692542217" duration="98000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47213000" />
+    <option name="totallyTimeSpent" value="51200000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -474,7 +489,7 @@
     <frame x="24" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2899878" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2936508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -509,162 +524,11 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/after/StateLogging.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/after/Position.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/after/Direction.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/advanceafter/Position.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/advanceafter/InvalidCommandException.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/Refactoring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/after/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/before/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/before/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/before/Direction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/before/Robot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/before/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/after/Robot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/advanceafter/Direction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/after/InvalidCommandException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/after/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/advanceafter/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/advanceafter/Robot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-          <folding>
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
-            <element signature="e#1230#1231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_10_replaceerrorcodewithexception/example/advanceafter/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-241">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-            <element signature="e#1263#1264#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example/after/Position.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example/after/Robot.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example/advanceafter/Direction.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example/before/Position.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example/advanceafter/Robot.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example/advanceafter/InvalidCommandException.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example/before/Direction.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example/advanceafter/Command.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example/before/Position.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example/advanceafter/Robot.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example/advanceafter/InvalidCommandException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example/before/Direction.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example/advanceafter/Command.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example01/before/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -740,15 +604,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/ShapeOval.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/Shape.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/ShapeLine.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/ShapeOval.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/Shape.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/ShapeLine.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/example01/after/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
@@ -763,12 +621,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/before/Shape.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/ShapeRectangle.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/before/Shape.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/ShapeRectangle.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/before/GraphPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -814,6 +668,20 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/GraphPrinter.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/Refactoring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="81" selection-start-line="41" selection-start-column="81" selection-end-line="41" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -834,17 +702,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/Refactoring.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after/Position.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after/Robot.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/advanceafter/Direction.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/before/Position.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/advanceafter/Robot.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/advanceafter/InvalidCommandException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/advanceafter/Command.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/before/Direction.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/before/IntegerDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
+        <state relative-caret-position="620">
+          <caret line="63" column="59" selection-start-line="63" selection-start-column="59" selection-end-line="63" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1089#1251#0" expanded="true" />
+            <element signature="e#1250#1251#0" expanded="true" />
+            <element signature="e#1557#1558#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_11_replaceconstructorwithfactorymethod/exmaple02/after/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/before/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after01/ValueListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after01/ValueChangeEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after01/Value.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#214#229#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after01/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after01/IntegerDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/Refactoring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="40" column="50" lean-forward="true" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02/Value.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02/ValueChangeEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02/ValueListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02/IntegerDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_12_duplicateobserveddata/example/after02/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
         </state>
       </provider>
     </entry>
