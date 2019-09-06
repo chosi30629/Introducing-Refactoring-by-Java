@@ -1,10 +1,6 @@
 package _12_duplicateobserveddata.example.after01;
 
 
-import _12_duplicateobserveddata.example.after02.Value;
-import _12_duplicateobserveddata.example.after02.ValueChangeEvent;
-import _12_duplicateobserveddata.example.after02.ValueListener;
-
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
